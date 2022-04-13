@@ -1,0 +1,1 @@
+hadoop jar  /hadoop-2.9.2/share/hadoop/tools/lib/hadoop-streaming-2.9.2.jar  -mapper "python mapper.py" -reducer "python  reducer.py" -input /temp.txt -output /output
